@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to my portfolio!</h2>
+        <p>Hi! I am Karitkey Raghuvanshi. I belong to Delhi, India. I am currently pursuing my Masters of Computer Applications from K.I.E.T Group of Institutions, Delhi-NCR. I have finished my Bachelors in Computer Applications with a 8.9 CGPA. I love coding and
+            problem solving and I am very much interested in Web Development, and Data Science. I have made several projects using Html, css,bootstrap , javascript. Currently I am working on my javascript skills.</p>
+    </section>
+    <div class="about">
+        <h3>Education</h3>
+        <br><br>
+        <div class="boxs">
+            <div class="academics">
+                <h4>MCA</h4>
+                <p>Currently pusuing at K.I.E.T Group of Institutions</p>
+                <h4>BCA</h4>
+                <p>Currently pusuing at K.I.E.T Group of Institutions</p>
+                <h4>12th</h4>
+                <p>Did my Intermediate via Commerce from Gujarat Board with 74.4%</p>
+                <h4>10th </h4>
+                <p>Finished my High School from Gujarat Board with 85%</p>
+
+            </div>
+            <div class="skills">
+                <h4>
+                    <a href="https://www.w3schools.com/js/" target="_blank">Javascript</a>
+                </h4>
+
+                <h4>
+                    <a href="https://www.w3schools.com/java/" target="_blank">Core Java</a>
+                </h4>
+
+                <h4>
+                    <a href="https://www.w3schools.com/MySQL/default.asp" target="_blank">Mysql</a>
+                </h4>
+
+                <h4>
+                    <a href="https://www.w3schools.com/html/html_scripts.asp" target="_blank">HTML, CSS, Bootstrap</a>
+                </h4>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
