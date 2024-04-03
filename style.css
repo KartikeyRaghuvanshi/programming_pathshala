@@ -1,0 +1,33 @@
+.parent{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.child{
+    background-color: red;
+    border: 1px solid black;
+    width: 50px;
+    flex-basis: 75px;
+    /* this flex basis tells that child must made atleast 75 pixels width */
+}
+
+.search{
+    /* flex-grow: 1; */
+    /* flex grow tells that cover all space which is left */
+}
+.items{
+    /* flex-grow: 1; */
+}
+/* .logo{
+    flex-shrink: 1;
+} */
+.one{
+    justify-content: space-between;
+}
+.two{
+    justify-content: flex-end;
+}
+.three{
+    justify-content: space-evenly;
+}
