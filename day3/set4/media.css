@@ -1,0 +1,24 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+   background-color: yellow;
+   width: 540px;
+   height: 160px;
+   text-align: center;
+}
+h2{
+    text-align: center;
+    height: 75px;
+}
+@media(800px <= width <=1200px){
+    .parent{
+        background-color: blue;
+    }
+    h2{
+        background-color: green;
+    }
+}
