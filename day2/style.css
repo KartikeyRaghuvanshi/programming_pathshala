@@ -1,0 +1,54 @@
+/* external css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: border(l&r); */
+}
+div{
+    background-color: aqua; text-decoration: underline;
+}
+div span{
+    background-color: rgb(255, 255, 255); 
+    padding: 10;
+    text-decoration: underline;
+}
+.heading.big{
+    padding: 10;
+    background-color: brown;
+}
+.heading{
+    background-color: blueviolet;
+    padding: 10;
+}
+
+.margin{
+    /* margin: 50px 25px; */
+    margin: 10px 20px 40px 60px;
+    border: 1px solid black;
+    padding: 14px;
+}
+.parent{
+    width: 400px;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    
+
+}
+
+/* .image{
+    display: block;
+    border: 1px solid black;
+    margin: auto 0;
+} */
+
+img{
+    display: block;
+    /* height: px; */
+    /* align-items: center; */
+    border: 1px solid black;
+    margin: auto ;
+
+}
