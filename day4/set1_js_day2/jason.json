@@ -1,0 +1,6 @@
+const obj ={
+    "name": "kartikey",
+    "last":"rag"
+}
+
+obj
